@@ -2,7 +2,7 @@ package com.ATDev.springStart.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import com.ATDev.springStart.Entity.Employee;
+import com.ATDev.springStart.Entity.Student;
 
-public interface EmployeeRepository extends JpaRepository<Employee, Long> {
+public interface StudentRepository extends JpaRepository<Student, Long> {
 }
